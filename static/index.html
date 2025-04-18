@@ -46,6 +46,18 @@
       border-radius: 20px;
       font-size: 0.9rem;
     }
+    .storage-link {
+      margin-top: 2rem;
+      display: block;
+      font-size: 1rem;
+      color: #00ffcc;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    .storage-link:hover {
+      color: #ffd700;
+    }
     @media (max-width: 600px) {
       h1 {
         font-size: 2rem;
@@ -58,9 +70,12 @@
 </head>
 <body>
   <div class="container">
-    <h1>Hello, I'm <strong>Pratham Pawar</strong> 👋</h1>
+    <h1>Hello, I'm <a href="https://my-storage.onrender.com" target="_blank" style="color: #ffd700; text-decoration: none;">Pratham Pawar</a> 👋</h1>
     <p>Welcome to my local Python HTTP server!<br>This is a modern and responsive landing page served with Flask.</p>
     <div class="tag">Built with 💻 Python & Flask</div>
+
+    <!-- Link to storage -->
+    <a class="storage-link" href="https://my-storage.onrender.com" target="_blank">Go to storage</a>
   </div>
 </body>
 </html>
